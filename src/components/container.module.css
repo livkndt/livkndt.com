@@ -1,0 +1,20 @@
+.container {
+  margin: 0 auto;
+  padding: var(--space-2xl) var(--size-gutter);
+  max-width: var(--size-max-width);
+}
+
+.container.wide {
+  max-width: var(--size-max-width-wide);
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 100%;
+    padding: var(--space-lg);
+  }
+
+  .container.fullWidthMobile {
+    padding: 0;
+  }
+}

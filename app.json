@@ -1,0 +1,11 @@
+{
+  "name": "livkndt.com",
+  "description": "Personal website of Olivia Knoedt",
+  "keywords": [
+    "blog",
+    "olivia knoedt"
+  ],
+  "repository": "https://github.com/livkndt/livkndt.com",
+  "success_url": "/",
+  "buildpacks": []
+}

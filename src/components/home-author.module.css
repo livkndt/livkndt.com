@@ -1,0 +1,28 @@
+.homeAuthor {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.image {
+  height: var(--size-profile-pic);
+  width: var(--size-profile-pic);
+  border-radius: 50%;
+  border: 4px solid var(--white);
+  box-shadow:
+    rgba(40, 127, 104, 0.4) 0px 5px,
+    rgba(40, 127, 104, 0.3) 0px 10px,
+    rgba(40, 127, 104, 0.2) 0px 15px,
+    rgba(40, 127, 104, 0.1) 0px 20px,
+    rgba(40, 127, 104, 0.05) 0px 25px;
+}
+
+.homeAuthor h1 {
+  margin-bottom: 0;
+  font-family: var(--font-serif-secondary);
+}
+
+.homeAuthor p {
+  margin: 0;
+}
