@@ -23,13 +23,14 @@ const Navigation = ({ navLinks }) => (
               Home
             </Link>
           </li>
-          {navLinks && navLinks.map(link => (
-            <li>
-              <Link to={link.url} activeClassName="active">
-                {link.shortTitle}
-              </Link>
-            </li>
-          ))}
+          {navLinks &&
+            navLinks.map(link => (
+              <li>
+                <Link to={link.url} activeClassName="active">
+                  {link.shortTitle}
+                </Link>
+              </li>
+            ))}
         </ul>
       </div>
     </nav>

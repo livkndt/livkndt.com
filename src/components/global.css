@@ -127,3 +127,13 @@ pre,
 code {
   font-family: var(--font-monospace);
 }
+
+a {
+  border-bottom: 1.5px solid transparent;
+  font-weight: var(--medium);
+}
+
+a:hover {
+  border-bottom-color: var(--primary);
+  color: var(--primary);
+}
